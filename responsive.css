@@ -95,9 +95,9 @@
         flex-direction: column-reverse;    
     }
     .form{
-        width: 200px;
+        width: 130px;
         padding:  0;
-        margin-left: -5.5rem;
+        margin-left: -3rem;
     }
     .form div{
         margin-top: 1rem;
