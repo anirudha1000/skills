@@ -61,10 +61,7 @@
         margin-top: 2rem;
         font-size: 50px;
     }
-    .img-box{
-        width:252px;
-        height: 320px;
-    }
+
     .counter p{
         font-size: 22px;
     }
@@ -74,16 +71,33 @@
         height: fit-content;
         padding: 2rem  5rem 5rem 5rem;
     }
+    #first-section{
+        text-align: center;
+        margin-top: -3rem;
+        margin-left: -1.7rem;
+    }
+    #first-section .text-1, .p-1{
+        margin-top: 2rem;
+        margin-left: 1em;
+        
+    }
     .flex{
         flex-direction: column;
+        font-size: 15px;
     }
+    .img-box{
+        margin-left: -1.8em;
+        width:250px;
+        height: 320px;
+    }
+    
     #profiles:last-child{
         flex-direction: column-reverse;    
     }
     .form{
         width: 200px;
         padding:  0;
-        margin-left: -3rem;
+        margin-left: -5.5rem;
     }
     .form div{
         margin-top: 1rem;
