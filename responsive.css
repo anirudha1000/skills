@@ -1,0 +1,68 @@
+@media  screen and (max-width:600px) {
+    .container{
+        background:linear-gradient(#d6cadd,#e0ffff);
+        width: 100%;
+        height: fit-content;
+        padding: 2rem  3rem 5rem 3rem;
+    }
+    .header{
+        height: 500px;
+    }
+    .img img{
+        height: 500px;
+    }
+    .menu-btn::before,
+.menu-btn::after
+{
+    width:44px;
+}
+    .text{
+        font-size: 80px;
+        top: 20%;
+    }
+    .text-section .text-1,h1{
+        margin-top: 1rem;
+    }
+    .text-section p{
+        font-size: 15px;
+        
+    }
+    .text-section h1{
+        margin-top: 2rem;
+    }
+    #second-s{
+        margin-top: 3rem;
+    }
+    #third-s{
+        margin-top: 3rem;
+    }
+    #second-s div:last-child{
+        display: flex;
+        flex-direction: column;
+      }
+      #second-s div:last-child img{
+        width: 100%;
+        padding: 0 0 1rem 0;
+    }
+    .counter h3{
+        font-size: 50px;
+    }
+    .counter p{
+        font-size: 22px;
+    }
+
+    .container-h-main{
+        width: 100%;
+        height: fit-content;
+        padding: 2rem  5rem 5rem 5rem;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    #profiles:last-child{
+        flex-direction: column-reverse;    
+    }
+    .form div{
+        margin-top: 1rem;
+    }
+}
